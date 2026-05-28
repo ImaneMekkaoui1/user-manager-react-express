@@ -10,7 +10,7 @@ app.use(express.json());
 
 // ─── Données en mémoire (simule une base de données) ────────────────────────
 let users = [
-  { id: 1, nom: "Alaoui", prenom: "Mohammed", email: "m.alaoui@email.com", role: "Admin" },
+  { id: 1, nom: "Mekkaoui", prenom: "Imane", email: "Imane.Mekkaoui@email.com", role: "Admin" },
   { id: 2, nom: "Benali", prenom: "Fatima", email: "f.benali@email.com", role: "Utilisateur" },
   { id: 3, nom: "Cherkaoui", prenom: "Youssef", email: "y.cherkaoui@email.com", role: "Utilisateur" },
   { id: 4, nom: "Idrissi", prenom: "Aicha", email: "a.idrissi@email.com", role: "Modérateur" },
